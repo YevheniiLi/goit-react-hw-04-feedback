@@ -6,7 +6,7 @@ import { Section } from '../Section/Section';
 import { Box } from 'components/Box';
 import { NotificationMessage } from 'components/Notification/Notification.styled';
 
-export function App() {
+export const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
